@@ -9,3 +9,23 @@ body,
   height: 100%;
   width: 100%;
 }
+
+header {
+  height: 100px;
+  background: lightblue;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: 1fr 2fr;
+
+}
+
+.user {
+}
+
+.contacts {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
