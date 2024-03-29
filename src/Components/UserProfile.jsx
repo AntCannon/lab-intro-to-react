@@ -1,7 +1,7 @@
 import profileImg from "../profile.png";
 
 export default function UserProfile({user}) {
-  console.log(`UserProfile`, user)
+  
   return (
     <div className="user-card card">
       <img className="user-avatar" src={profileImg} />

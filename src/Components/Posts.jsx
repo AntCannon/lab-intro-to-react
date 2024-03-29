@@ -1,7 +1,6 @@
 import Post from "./Post.jsx";
 
 export default function Posts({userPosts}) {
-  console.log(`Posts-userPosts`, userPosts)
 
   return(
     <section className="posts">

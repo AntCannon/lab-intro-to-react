@@ -1,5 +1,4 @@
 export default function Post({post}) {
-  console.log("Post-post", post);
 
   return (
     <article className="post">
