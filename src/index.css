@@ -10,22 +10,80 @@ body,
   width: 100%;
 }
 
+h2, h3, h4 {
+  margin: 0px 0px 5px 0px;
+}
+
 header {
-  height: 100px;
+  height: 50px;
   background: lightblue;
 }
 
+nav {
+  margin-left: 75%;
+}
+
+button {
+  margin: 10px 5px 0px 5px;
+}
+
 main {
+  margin: 20px;
   display: grid;
   grid-template-columns: 4fr 2fr;
   grid-template-rows: 1fr 2fr;
+  gap: 30px;
+}
 
+.user,
+.avatar,
+.posts,
+.post,
+.contacts, 
+.contact-card
+{
+  border: 1px solid black;
 }
 
 .user {
+
+}
+
+.user-card {
+}
+
+.card {
+  height: 125px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.avatar {
+  width: 125px; 
+  aspect-ratio: 1;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.posts {
+  text-align: center;
+  padding: 20px;  
+}
+
+.post {
+  margin: 20px 0;
+  padding: 20px;
 }
 
 .contacts {
+  padding: 20px;
+  text-align: center;
   grid-column: 2;
   grid-row: 1 / span 2;
+}
+
+.contact-card {
+  margin: 20px 0;
+  text-align: left;
 }

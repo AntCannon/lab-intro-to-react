@@ -1,8 +1,8 @@
 const userData = {
-  firstName: "Max",
-  lastName: "Cromwell",
+  firstName: "Ant",
+  lastName: "Mazin",
   position: "Big Stepper",
-  headline: "Pursue your Passion"
+  headline: "Ability Begets Responsibility"
 }
 
 export default userData;

@@ -4,10 +4,10 @@ export default function ContactUserCard({contact}) {
   
   return (
     <div className="contact-card card">
-      <img className="contact-avatar" src={profileImg} />
+      <img className="contact-avatar avatar" src={contact.avatar} alt={contact.firstName} />
       <div className="contact-details">
-        <h2>{contact.firstName} {contact.lastName}</h2>
-        <h3>{contact.position}</h3>
+        <h3>{contact.firstName} {contact.lastName}</h3>
+        <h4>{contact.position}</h4>
         <span>{contact.headline}</span>
       </div>
     </div>
